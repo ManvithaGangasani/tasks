@@ -7,6 +7,10 @@
    cursor: grab; 
    display:inline-block;
 }
+.p1 {
+    font-size: 16px;
+    font-weight: bold;
+}
 .para {
     display: inline-block;
 }
@@ -21,7 +25,7 @@
     border: none;
     cursor: grab;
     font-weight:bold;
-    font-size: 8px ;
+    font-size: 16px ;
     background-color: white;
 }
 .ut {
@@ -31,7 +35,7 @@
     border: none;
     cursor: grab;
     color: rgb(114, 105, 105);
-    font-size: 8px;
+    font-size: 16px;
     background-color: white;
 }
 .buttons {
@@ -42,11 +46,11 @@
 }
 .p2 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 50px;
     font-family: Arial;
 }
 .p3 {
-    font-size: 10px;
+    font-size: 25.2px;
     color: rgb(98, 94, 94);
 }
 .consult {
@@ -54,7 +58,7 @@
     color: white;
     border: none;
     border-radius: 20px;
-    font-size: 10px;
+    font-size: 16px;
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
@@ -65,23 +69,26 @@
     text-align: left;
     display: inline-block;
     margin-bottom: 50px;
-    width: 180px;
     margin-top: 20px;
+    
 }
 .profile {
-    float: right;
-width: 300px;
-justify-self: end;
-}
+    width: 100%; 
+    height: auto; 
+    max-width: 100%; 
+    max-height: 100%; 
+  }
+
 .matter1 {
 display: grid;
 grid-template-columns: 1fr 1fr;
 margin-left: 200px;
 margin-right: 200px;
+column-gap: 100px;
 }
 .service {
  font-family: Arial;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     margin-top: 80px;
@@ -89,15 +96,22 @@ margin-right: 200px;
 .p4 {
      color: gray;
     text-align: center;
-    font-size: 10px;
+    font-size: 16px;
  }
  .main {
     font-weight: bold;
+    font-size: 20px;
  }
  .second {
-    font-size: 10px;
-    width: 200px;
+    font-size: 15px;
     color:gray ;
+}
+.grid-item {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+ 
 }
  .grid-info {
     display: grid;
@@ -105,6 +119,7 @@ margin-right: 200px;
     column-gap: 16px;
     row-gap: 40px;
     margin-top: 100px;
+  
 }
 .learn {
 color: rgb(55, 142, 250);
@@ -121,19 +136,18 @@ margin-top: 100px;
     text-align: center;
 }
 .img {
-display: inline-block;
-margin-top: 100px;
-width: 300px;
+    width: 100%; 
+    height: auto; 
+    max-width: 100%; 
+    max-height: 100%; 
 }
 .para1 {
 font-weight: bold;
-font-size: 20px;
-width: 200px;
+font-size: 30px;
 }
 .para2 {
 color: gray;
-font-size: 10px;
-width: 200px;
+font-size: 16px;
 }
 .butt {
 color: rgb(55, 142, 250);
@@ -147,28 +161,30 @@ border-color: rgb(55, 142, 250);
 margin-top: 10px;
 }
 .fun {
-margin-top: 100px;
 display: block;
-float: right;
-justify-content: center;
-margin-left: 200px;
+padding-top: 20px;
+padding-left: 100px;
+padding-right: 100px;
 }
 .para3 {
 font-weight: bold;
-font-size: 20px;
-width: 200px;
+font-size: 40px;
 }
 .para4 {
 color: gray;
-font-size: 10px;
-width: 200px;
+font-size: 17px;
 }
 .fun1 {
-    justify-content: center;
-    margin-left: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
 }
 .img1{
 justify-self: end;
+width: 100%; 
+height: auto; 
+max-width: 100%; 
+max-height: 100%; 
 }
 .grid1 {
 display: grid;
@@ -176,17 +192,20 @@ grid-template-columns: 1fr 1fr;
 margin-top: 20px;
 margin-left: 200px;
 margin-right: 200px;
+column-gap: 10px;
+
 }
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-left: 200px;
     margin-right: 200px;
+    column-gap: 10px;
 }
 .customer {
 font-weight: bold;
-font-size: 20px;
+font-size: 30px;
 text-align: center;
 }
 .man {
@@ -198,11 +217,11 @@ width: 100px;
 margin-right: 20px;
 }
 .ed {
-font-size: 15px;
+font-size: 20px;
 font-weight: bold;
 }
 .circle {
-font-size: 12px;
+font-size: 16px;
 }
 .ed1 {
 display: inline-block;
@@ -229,14 +248,14 @@ padding-bottom: 50px;
 color: white;
 }.e {
 display: grid;
-font-size: 30px;
+font-size: 16px;
 color: rgb(55, 142, 250);
 text-align: center;
 }
 .check {
 display: grid;
 font-weight: bold;
-font-size: 20px;
+font-size: 30px;
 text-align: center;
 margin-top: 100px;
 }
@@ -254,11 +273,11 @@ place-items: center;
 }
 .d1 {
 font-weight: bold;
-font-size: 15px;
+font-size: 16px;
 width: 170px;
 }
 .de1 {
-font-size: 12px;
+font-size: 16px;
 color:rgb(122, 111, 111);
 }
 .read {
@@ -272,7 +291,7 @@ padding-left: 0;
 margin-left: 20px;
 }
 .i1 ,.grid-item{
-background-color: whitesmoke;
+background-color: white;
 width: 250px;
 border-radius: 10px;
 }
@@ -323,8 +342,9 @@ font-weight: bold;
 display: inline-block;
 }
 .s {
-font-size: 15px;
+font-size: 16px;
 color: rgba(245, 241, 241, 0.949);
+margin-right: 20px;
 }
 .z {
 display: grid;
@@ -340,4 +360,8 @@ column-gap: 30px;
 } 
 .c {
 cursor: grab ;
+width: 1440px;
+margin-left: auto;
+margin-right: auto;
+place-items: center;
 }
