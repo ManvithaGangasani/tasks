@@ -2,8 +2,7 @@
     color: white;
     background-color: rgb(55, 142, 250);
    border-color: white;
-   border: none;
-   cursor: grab; 
+   border: none; 
    border-radius: 100px;
    display:inline-block;
    
@@ -23,26 +22,40 @@
 }  
 .h {
     border: none;
-    cursor: grab;
     font-weight:bold;
     font-size: 16px ;
     background-color: white;
+}
+.h:hover {
+    opacity: 0.5;
 }
 .ut {
     display: inline-block;
 }
 .f,.a,.t,.u {
     border: none;
-    cursor: grab;
     color: rgb(114, 105, 105);
     font-size: 16px;
     background-color: white;
 }
+.f:hover {
+    opacity: 0.5;
+}
+.a:hover {
+    opacity:0.5;
+}
+.t:hover {
+    opacity: 0.5;
+}
+.u:hover {
+    opacity: 0.5;
+}
 .buttons {
     margin-left: 100px;
     margin-top: 10px;
-
+    
 }
+
 .as {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -67,6 +80,9 @@
     padding-bottom: 10px;
     padding-right: 20px;
     margin-top: 10px;
+}
+.consult:hover {
+    opacity: 0.8;
 }
 .matter {
     text-align: left;
@@ -137,6 +153,9 @@ margin-top: 100px;
 transition: background-color 0.15s,color 0.1s;
 border-style: solid;
 }
+.learn:hover{
+    opacity: 0.6;
+}
 .bt {
     text-align: center;
 }
@@ -166,6 +185,9 @@ border-color: rgb(55, 142, 250);
 margin-top: 10px;
 transition: background-color 0.15s,color 0.1s;
 border-style: solid;
+}
+.butt:hover {
+    opacity: 0.6;
 }
 .fun {
 display: block;
@@ -323,6 +345,10 @@ padding-bottom: 10px;
 margin-bottom: 20px;
 transition: background-color 0.15s,color 0.1s;
 border-style: solid;
+
+}
+.b:hover {
+    opacity: 0.6;
 }
 .b1 {
 margin-top: 50px;
