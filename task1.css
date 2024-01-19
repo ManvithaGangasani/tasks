@@ -1,3 +1,7 @@
+use * {
+    margin: 0;
+    padding: 0;
+}
 .t-button {
     color: white;
     background-color: rgb(55, 142, 250);
@@ -25,6 +29,7 @@
     font-weight:bold;
     font-size: 16px ;
     background-color: white;
+    cursor: pointer;
 }
 .h:hover {
     opacity: 0.5;
@@ -37,6 +42,7 @@
     color: rgb(114, 105, 105);
     font-size: 16px;
     background-color: white;
+    cursor: pointer;
 }
 .f:hover {
     opacity: 0.5;
@@ -80,6 +86,7 @@
     padding-bottom: 10px;
     padding-right: 20px;
     margin-top: 10px;
+    cursor: pointer;
 }
 .consult:hover {
     opacity: 0.8;
@@ -152,6 +159,7 @@ border-color: rgb(55, 142, 250);
 margin-top: 100px;
 transition: background-color 0.15s,color 0.1s;
 border-style: solid;
+cursor: pointer;
 }
 .learn:hover{
     opacity: 0.6;
@@ -185,9 +193,11 @@ border-color: rgb(55, 142, 250);
 margin-top: 10px;
 transition: background-color 0.15s,color 0.1s;
 border-style: solid;
+cursor: pointer;
 }
 .butt:hover {
-    opacity: 0.6;
+    opacity: 0.6
+    ;
 }
 .fun {
 display: block;
@@ -345,6 +355,7 @@ padding-bottom: 10px;
 margin-bottom: 20px;
 transition: background-color 0.15s,color 0.1s;
 border-style: solid;
+cursor: pointer;
 
 }
 .b:hover {
@@ -372,9 +383,14 @@ display: inline-block;
 }
 .g1 {
 font-weight: bold;
+cursor: pointer;
+}
+.g1:hover {
+    opacity: 0.5;
 }
 .y1 {
 display: inline-block;
+
 }
 .s {
 font-size: 16px;
@@ -393,6 +409,12 @@ padding-left: 250px;
 padding-right: 100px;
 column-gap: 30px;
 } 
+.it {
+    cursor: pointer;
+}
+.it:hover {
+    opacity: 0.6;
+}
 .c {
 
 width: 1440px;
