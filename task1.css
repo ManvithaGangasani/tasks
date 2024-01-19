@@ -1,4 +1,4 @@
-use * {
+* {
     margin: 0;
     padding: 0;
 }
@@ -8,6 +8,7 @@ use * {
    border-color: white;
    border: none; 
    border-radius: 100px;
+   width: 20px;
    display:inline-block;
    
 }
